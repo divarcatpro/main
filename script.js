@@ -8,4 +8,4 @@ function loadHandler() {
 }
 
 window.addEventListener("load",loadHandler)
-setTimeout(function(){ loading.remove(); }, 11000);
+setTimeout(function(){ loading.remove(); }, 13000);
