@@ -160,7 +160,7 @@
   position: absolute;
   color: #fff;
   font-size: 1.5em;
-  font-family: consolas;
+/*   font-family: consolas; */
   bottom: -100px;
   letter-spacing: 0.15em;
 }
