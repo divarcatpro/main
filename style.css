@@ -9,11 +9,12 @@
   justify-content: center;
   align-items: center;
   background: black;
+  direction: ltr;
 }
 
-.loader > img {
+/* .loader > img {
   width: 100px;
-}
+} */
 
 .loader.hidden {
   animation: fadeOut 1s;
