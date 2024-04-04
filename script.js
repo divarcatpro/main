@@ -27,6 +27,7 @@ function addBadge(favicon) {
       context.arc(canvas.width - faviconSize / 3 , faviconSize / 3, faviconSize / 3, 0, 2 * Math.PI);
       context.fillStyle = '#e30';
       context.strokeStyle="white";
+      context.lineWidth = 6;
       context.stroke();
       context.fill();
 
@@ -34,7 +35,7 @@ function addBadge(favicon) {
       context.textAlign = 'center';
       context.textBaseline = 'middle';
       context.fillStyle = '#fff';
-      context.fillText(6, canvas.width - faviconSize / 3, faviconSize / 3);
+      context.fillText(آگهی, canvas.width - faviconSize / 3, faviconSize / 3);
 
       favicon.href = canvas.toDataURL('divar.png');
    };
