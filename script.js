@@ -34,7 +34,7 @@ function addBadge(favicon) {
       context.fillStyle = '#fff';
       context.fillText(6, canvas.width - faviconSize / 3, faviconSize / 3);
 
-      favicon.href = canvas.toDataURL('/divar.png');
+      favicon.href = canvas.toDataURL('divar.png');
    };
 
   img.addEventListener('load', createBadge);
