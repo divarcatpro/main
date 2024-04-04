@@ -24,7 +24,7 @@ function addBadge(favicon) {
       context.drawImage(img, 0, 0, faviconSize, faviconSize);
 
       context.beginPath();
-      context.arc(canvas.width - faviconSize / 3 , faviconSize / 3, faviconSize / 3, 0, 2 * Math.PI);
+      context.arc(canvas.width - faviconSize / 3 , faviconSize / 3, 22 / 3, 0, 2 * Math.PI);
       context.fillStyle = '#e30';
       context.strokeStyle="white";
       context.lineWidth = 6;
@@ -35,7 +35,7 @@ function addBadge(favicon) {
       context.textAlign = 'center';
       context.textBaseline = 'middle';
       context.fillStyle = '#fff';
-      context.fillText(6, canvas.width - faviconSize / 3, faviconSize / 3);
+      context.fillText(1, canvas.width - faviconSize / 3, faviconSize / 3);
 
       favicon.href = canvas.toDataURL('divar.png');
    };
