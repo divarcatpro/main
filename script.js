@@ -26,6 +26,9 @@ function addBadge(favicon) {
       context.beginPath();
       context.arc(canvas.width - faviconSize / 3 , faviconSize / 3, faviconSize / 3, 0, 2 * Math.PI);
       context.fillStyle = '#e30';
+      context.strokeStyle="red";
+      context.rect(10, 10, 100, 100);
+      context.stroke();
       context.fill();
 
       context.font = '15px Arial, sans-serif';
